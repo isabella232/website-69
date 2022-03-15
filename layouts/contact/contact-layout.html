@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="tpl-post">
+  {{ partial "head.html" . }}
+    {{ partial "header.html" . }}
+
+        <main>
+
+            <h1>Contact</h1>
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+
+                        {{ partial "divvi/large_email_button.html" (dict "email" "press@divviup.org" "name" "Press Inquiries" ) }}
+                        {{ partial "divvi/large_email_button.html" (dict "email" "sponsor@divviup.org" "name" "Sponsorship" ) }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="invert-container py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 offset-sm-3">
+
+                            <div class="invert-content text-center">
+                                <p class="fs-xl">If you are interested in Divvi Up and privacy-respecting metrics, please get involved with <span class="no-br">our work.</span></p>
+
+                                <a href="/get-involved" class="btn btn-primary">Get Involved</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    {{ partial "footer.html" . }}
+</html>

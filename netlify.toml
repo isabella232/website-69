@@ -1,0 +1,15 @@
+# example netlify.toml
+[build]
+  command = "hugo --gc --minify"
+  functions = "netlify/functions"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.83.1"
+  HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+  force = false

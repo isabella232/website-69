@@ -1,0 +1,125 @@
+@import "_variables";
+@import "_theme-overrides";
+@import "page";
+@import "post";
+
+body, h1, h2, h3, h4 {
+  color: var(--primary-text-color) !important;
+}
+
+#footer-logo {
+
+  /* Blue logo with ISRG spelled out */
+  margin-bottom: 5px;
+  max-width: 100%;
+  /* White logo *
+  max-width: 300px;
+  max-height: 55px;
+  // width: 100%;
+  */
+}
+
+.btn-large {
+  font-size: 18px;
+}
+
+.logo-container {
+  width: 200px;
+  height: 200px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+// @media screen and (max-width: 991.98px) {
+//   #divviupNavbar {
+//     box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
+//   }
+// }
+
+
+#home-hero {
+  .btn {
+    width: 320px;
+    position: relative;
+
+    i {
+      position: absolute;
+      left: 18px;
+      top: 16px;
+    }
+  }
+}
+
+.highlight {
+  background: #e8fcf8;
+  text-align: center;
+  padding: 20px 10px 10px;
+  margin: 10px 0 20px;
+
+  h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+#copyright-line {
+  background-color: #292c37;
+  background-repeat: repeat;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.navbar-floating {
+  z-index: 1030;
+}
+
+.blog-date {
+  font-size: 15px;
+}
+
+.get-involved-item {
+  margin-bottom: 50px;
+
+  form {
+    button {
+      display: block;
+      margin-top: 10px;
+      background: var(--teal-color) !important;
+      border-color: var(--teal-color) !important;
+    }
+  }
+}
+
+header.cs-header {
+  background-color: var(--primary-background-color);
+}
+
+body {
+  background-color: var(--primary-background-color);
+}
+
+.no-br {
+  white-space: nowrap;
+}
+
+a[name] {
+  scroll-padding-top: 50px
+}
+
+.navbar-brand {
+  padding-top: 4px;
+
+}

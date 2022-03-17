@@ -1,4 +1,4 @@
-baseURL = "https://divviup-site.netlify.app"
+baseURL = "https://divviup.org"
 languageCode = "en-us"
 contentDir = "content/en"
 defaultContentLanguage = "en"
@@ -10,7 +10,7 @@ address = "548 Market St, PMB 57274, San Francisco, California 94104-5401"
 address_line_1 = "548 Market St, PMB 57274"
 address_line_2 = "San Francisco, California 94104-5401"
 images = ["images/DivviUpSocialShare.png"]
-meta_description = "@todo"
+meta_description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."
 
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
@@ -35,4 +35,4 @@ title = "Divvi Up"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-description = "@todo"
+description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."

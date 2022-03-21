@@ -12,7 +12,7 @@ We’ve continued to evolve our infrastructure based both on our experience with
 
 This work was recently presented at the [IETF](https://datatracker.ietf.org/group/priv/) to begin the standardization process. The initial presentation was overall well-received and we anticipate the formation of a Working Group in early 2022.
 
-Meanwhile, on the technical development side, we have [an initial prototype of the protocol](https://github.com/abetterinternet/ppm-prototype) to test assumptions made in the standard. We will continue to make the prototype more robust in coming months with the goal of having a deployment that can be tested by partners in 2022.
+Meanwhile, on the technical development side, we have [an initial prototype of the protocol](https://github.com/divviup/ppm-prototype) to test assumptions made in the standard. We will continue to make the prototype more robust in coming months with the goal of having a deployment that can be tested by partners in 2022.
 
 We’ve received funding from Google and Facebook to develop our work. Thank you! We are seeking additional funding to support the engineering and operational cost of developing this service.
 

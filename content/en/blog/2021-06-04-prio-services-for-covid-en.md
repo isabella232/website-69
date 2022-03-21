@@ -12,7 +12,7 @@ There is [strong evidence](https://www.nature.com/articles/s41586-021-03606-z) t
 
 On a person’s device, ENPA data is divided into two shares in such a way that a person’s data is not intelligible without both shares. While the data is still on the device, one share is encrypted using an encryption key from ISRG, the other is encrypted with a key from the National Institutes of Health (NIH). The data shares are then sent to ingestion servers operated by Google and Apple. The ingestion servers cannot decrypt the data shares, but they can do device authenticity verification and load balancing. Once any such functions are performed, the data shares are then passed on to ISRG and NIH. Once we get our share, we sum it into a partial aggregate sum. NIH does the same with their share. The ISRG and NIH partial aggregate sums are then sent to a server operated by MITRE, where they are combined into a complete set of metrics that can be viewed by PHAs.
 
-This Prio-based process ensures that individual user data is never accessible in an intelligible form once it leaves the user's device, yet useful aggregate metrics are provided to PHAs. To see exactly how it works, check out ISRG’s [open source implementation](https://github.com/abetterinternet/prio-server).
+This Prio-based process ensures that individual user data is never accessible in an intelligible form once it leaves the user's device, yet useful aggregate metrics are provided to PHAs. To see exactly how it works, check out ISRG’s [open source implementation](https://github.com/divviup/prio-server).
 
 ![ENPA Service Flow](/images/2021.06.04-ENPA-Service-Flow.png "ENPA Service Flow")
 
